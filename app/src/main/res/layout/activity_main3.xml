@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFFBF2"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="420dp"
+            android:layout_height="match_parent"
+            android:background="#F0F0"
+            android:gravity="left"
+            android:text="WELCOME"
+            android:textStyle="bold"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/getusername"
+            android:layout_width="420dp"
+            android:layout_height="match_parent"
+            android:background="#F0F0"
+            android:gravity="left"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:text="TextView"
+            android:textSize="30sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="114dp"
+            android:layout_marginTop="16sp"
+            android:layout_marginBottom="4sp"
+
+            android:background="#ffff"
+            android:orientation="horizontal">
+
+
+            <EditText
+                android:id="@+id/tb"
+                android:layout_width="235dp"
+                android:layout_height="47dp"
+                android:layout_gravity="center"
+                android:layout_margin="17sp"
+                android:background="@drawable/edit_text_border"
+                android:drawableStart="@drawable/money"
+                android:drawablePadding="4dp"
+                android:hint="Total water Bill"
+                android:inputType="numberDecimal"
+                android:paddingLeft="14dp" />
+
+            <ImageView
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:paddingTop="30dp"
+                android:src="@drawable/water" />
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="395dp"
+            android:layout_height="21dp"
+            android:paddingLeft="14dp"
+            android:textColor="#D73419"
+            android:text="भाडामा बस्नेको नाम " />
+
+
+
+        <EditText
+            android:id="@+id/rh"
+            android:layout_width="375dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="14sp"
+            android:background="@drawable/edit_text_border"
+            android:drawableStart="@drawable/user"
+            android:drawablePadding="4dp"
+            android:layout_marginBottom="12sp"
+            android:hint="ROOM HOLDER"
+            android:inputType="text"
+            android:paddingLeft="12dp" />
+
+        <TextView
+            android:layout_width="395dp"
+            android:layout_height="21dp"
+            android:paddingLeft="14dp"
+            android:text="कोठामा बस्नेको संख्या"
+            android:textColor="#D73419" />
+
+
+
+        <EditText
+            android:id="@+id/npeople"
+            android:layout_width="375dp"
+            android:layout_height="69dp"
+           android:layout_marginLeft="14sp"
+            android:background="@drawable/edit_text_border"
+            android:drawableStart="@drawable/ic_person_add_black_24dp"
+            android:drawablePadding="4dp"
+            android:hint="NO OF PEOPLE"
+            android:layout_marginBottom="12sp"
+            android:inputType="number"
+            android:paddingLeft="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="170sp"
+            android:background="#fff9"
+            android:orientation="horizontal"
+            android:padding="7sp">
+
+
+            <ImageView
+                android:layout_width="174dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:paddingTop="30dp"
+                android:src="@drawable/people" />
+
+            <EditText
+                android:id="@+id/tp"
+                android:layout_width="190dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/edit_text_border"
+                android:hint="Total Number People"
+                android:inputType="number"
+                android:paddingLeft="10dp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="23sp"
+            android:layout_width="395dp"
+            android:layout_height="21dp"
+            android:paddingLeft="14dp"
+            android:layout_marginBottom="5sp"
+            android:text="कोठाको भाडा रकम "
+            android:textColor="#D73419" />
+
+        <EditText
+            android:layout_marginTop="-2dp"
+            android:id="@+id/roomkopaisa"
+            android:layout_width="375dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="14sp"
+            android:layout_marginBottom="12sp"
+            android:background="@drawable/border"
+            android:drawableStart="@drawable/money"
+            android:drawablePadding="4dp"
+            android:hint="ROOM RENT"
+            android:inputType="number"
+            android:paddingLeft="12dp" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff0"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="230dp"
+                android:paddingTop="30dp"
+                android:src="@drawable/meter" />
+
+
+            <TextView
+                android:id="@+id/show"
+                android:layout_width="179dp"
+                android:layout_height="153dp"
+                android:layout_gravity="center"
+                android:layout_margin="4sp"
+                android:background="@drawable/border"
+                android:drawableStart="@drawable/money"
+                android:drawablePadding="4dp"
+                android:gravity="center"
+                android:padding="4dp"
+                android:text="UNIT READING *सहि रिडइङ दिनुहोल ! Per Unit Rs15. As Per Nepal Electricity Board" />
+
+
+        </LinearLayout>
+
+
+
+
+     <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="50sp"
+        android:orientation="horizontal">
+
+
+         <EditText
+             android:id="@+id/start"
+             android:layout_width="175dp"
+             android:layout_height="36dp"
+             android:layout_gravity="center"
+             android:layout_margin="17sp"
+             android:background="@drawable/edit_text_border"
+             android:drawableStart="@drawable/read"
+             android:drawablePadding="4dp"
+             android:inputType="numberDecimal"
+             android:hint="पहिलेको रिडइङ "
+             android:paddingLeft="14dp" />
+
+         <EditText
+             android:id="@+id/end"
+             android:layout_width="159dp"
+             android:layout_height="36dp"
+             android:layout_gravity="center"
+             android:layout_margin="17sp"
+             android:background="@drawable/edit_text_border"
+             android:drawableStart="@drawable/read"
+             android:hint="अहिलेको रिडइङ "
+             android:inputType="numberDecimal"
+             android:paddingLeft="14dp" />
+
+     </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/okmotor"
+            android:layout_width="377dp"
+            android:layout_height="88dp"
+            android:layout_margin="17sp"
+            android:background="@drawable/solid_bg"
+            android:drawablePadding="4dp"
+            android:paddingLeft="14dp"
+            android:paddingTop="34dp"
+            android:text="Per Person Motor *100"
+            android:textColor="#fff"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ds"
+            android:layout_width="377dp"
+            android:layout_height="88dp"
+            android:layout_margin="17sp"
+            android:background="@drawable/solid_bg"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:drawablePadding="4dp"
+            android:paddingLeft="14dp"
+            android:paddingTop="34dp"
+            android:textSize="23sp"
+            android:text="Drinking WATER BILING HERE" />
+
+
+
+        <Button
+            android:id="@+id/summary"
+            android:layout_width="382dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/button"
+            android:text="SUMMARY "
+            android:textColor="#fff"
+            android:textSize="28sp"
+            android:textStyle="bold" />
+
+
+        <View
+            android:layout_marginTop="17sp"
+            android:layout_width="match_parent"
+            android:background="#074107"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_height="1sp" />
+
+
+        <TextView
+            android:id="@+id/summary123Answer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="17sp"
+            android:text="*माथिको सही डाटा छ भने अगाडि बड्नुहोस् |"
+
+           />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

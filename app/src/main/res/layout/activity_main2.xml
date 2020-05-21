@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFFBF2"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="424dp"
+        android:layout_height="46dp"
+        android:background="#F0F0"
+        android:gravity="center"
+        android:text="धन्यवाद  !"
+        android:textSize="34sp"
+        android:textStyle="bold"
+      />
+
+
+    <TextView
+        android:id="@+id/kingd"
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_alignBottom="@id/textView"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-105dp"
+        android:text="कृपया तपाईं को नाम लेख्नुहोस्  |  "
+        android:textColor="#cc6600"
+
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="382dp"
+        android:textAllCaps="true"
+        android:layout_height="47dp"
+        android:layout_alignBottom="@+id/kingd"
+        android:layout_marginBottom="-59dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="Your Name Here"
+        android:layout_marginStart="10sp"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/kingop"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/name"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-168dp"
+        android:text="तपाईंको ठेगाना  | "
+        android:textColor="#cc6600"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="382dp"
+        android:paddingLeft="10dp"
+        android:layout_height="55dp"
+        android:layout_alignBottom="@+id/kingop"
+        android:layout_marginStart="10sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-59dp"
+        android:background="@drawable/edit_text_border"
+        android:hint="Your Address Here"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="382dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/address"
+        android:layout_marginBottom="-112dp"
+        android:background="@drawable/button"
+        android:layout_marginStart="10dp"
+        android:text="सुरु गर्नुहोस् "
+        android:textColor="#fff"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

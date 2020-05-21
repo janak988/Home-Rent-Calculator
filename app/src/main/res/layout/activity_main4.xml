@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#EFFBF2"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity">
+
+
+
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="11sp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="7dp" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+            <View
+                android:layout_marginTop="12sp"
+                android:layout_width="match_parent"
+                android:background="#074107"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_height="1sp" />
+
+         <TextView
+            android:id="@+id/roomnameholder"
+            android:layout_width="370dp"
+             android:layout_marginLeft="10sp"
+            android:layout_height="51dp"
+            android:text="ROOM NAME"
+             android:gravity="center"
+            android:textSize="17dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:background="#074107"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_height="1sp" />
+
+         <TextView
+            android:id="@+id/bhada"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+             android:layout_marginLeft="10sp"
+             android:gravity="center"
+            android:text="ROOM BHADA"
+             android:textSize="17dp" />
+            <View
+                android:layout_width="match_parent"
+                android:background="#074107"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_height="1sp" />
+
+
+         <TextView
+            android:id="@+id/bijuli"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+             android:layout_marginLeft="10sp"
+             android:gravity="center"
+            android:text="Bijuli"
+             android:textSize="17dp" />
+            <View
+                android:layout_width="match_parent"
+                android:background="#074107"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_height="1sp" />
+
+         <TextView
+            android:id="@+id/peune_pani"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:text="Drinking water"
+             android:gravity="center"
+             android:layout_marginLeft="10sp"
+             android:textSize="17dp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:background="#074107"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_height="1sp" />
+
+         <TextView
+            android:id="@+id/motor"
+            android:layout_width="match_parent"
+             android:layout_marginLeft="10sp"
+             android:gravity="center"
+            android:layout_height="45dp"
+            android:text="motor"
+             android:textSize="17dp" />
+            <View
+                android:layout_width="match_parent"
+                android:background="#074107"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:layout_height="1sp" />
+
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:layout_marginTop="17sp"
+        android:layout_marginBottom="16sp"
+        android:id="@+id/result"
+        android:layout_width="373dp"
+        android:layout_height="67dp"
+        android:layout_gravity="center"
+        android:text="Total Calculate" />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#074107"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:layout_height="1sp" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:layout_marginTop="11sp"
+        app:cardElevation="20dp"
+        app:cardCornerRadius="7dp" >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+         <TextView
+             android:id="@+id/totalCalc"
+             android:layout_width="match_parent"
+             android:layout_height="64dp"
+             android:gravity="center"
+             android:layout_gravity="center"
+             android:text="कुल कोठा भाडाको रकम रु " />
+
+         <View
+             android:layout_width="match_parent"
+             android:background="#0ADC0A"
+             android:layout_marginLeft="10sp"
+             android:layout_marginRight="10sp"
+             android:layout_height="1sp" />
+
+         <TextView
+             android:id="@+id/answer"
+             android:layout_width="match_parent"
+             android:layout_height="45dp"
+             android:text="CONCLUDE"
+             android:gravity="center"
+             android:layout_gravity="center" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+
+
+</LinearLayout>
